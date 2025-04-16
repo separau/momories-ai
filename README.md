@@ -1,66 +1,46 @@
-# Momories AI 💖
+# 🌸 Momories AI - Memory Book Generator
 
-**Momories AI** is a creative and emotional AI tool that generates a beautiful digital memory book for Mother's Day (or any special occasion). From a simple photo, it creates a personalized letter, stylized images, audio narration, and exports everything into a lovely PDF — perfect as a gift for your mom, grandma, or loved one.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hildeoL2gWHBP7HTN-ihQZoxGJkDr-HG)
 
-## ✨ Features
-
-- 🖼️ Upload an old photo
-- 📝 Generate a heartfelt letter with AI
-- 🎨 Stylize the photo into a beautiful artistic version
-- 🔊 Convert the letter into an audio message
-- 📘 Export a full memory book as a PDF (with letter + styled photos)
-- 🎁 Deliverable as a digital product on Etsy or email
-
-## 📁 Folder Structure
-
-```
-momories-ai/
-├── scripts/
-│   ├── generate_letter.py     # AI letter generation
-│   ├── generate_audio.py      # Convert text to speech
-│   ├── generate_album.py      # Stylize old photo
-│   └── export_pdf.py          # Assemble PDF memory book
-├── assets/                    # Images, examples (optional)
-├── run_momories.ipynb         # Main Colab notebook to generate the book
-└── README.md
-```
-
-## 🧪 How to Use
-
-### ✅ 1. Clone the repo
-
-```bash
-git clone https://github.com/separau/momories-ai.git
-cd momories-ai
-```
-
-### 🧠 2. Run the notebook
-
-You can run the notebook:
-
-- 📘 [Directly on Google Colab](https://colab.research.google.com/) *(link coming soon)*
-- Or locally on Jupyter if you prefer
-
-### 🛠️ 3. Customize
-
-You can edit:
-- The letter template in `generate_letter.py`
-- The artistic style in `generate_album.py`
-- Fonts, layout, and export format in `export_pdf.py`
-
-## 🛍️ Sell it on Etsy
-
-This app is designed to be sold as a **digital product**:
-- Buyers send an old photo
-- You generate and send the memory book
-- Or you automate the entire process on your own website
-
-## 💌 Inspired by Love
-
-This project was created to bring joy, tears, and timeless moments back to life using the power of AI.
+Create a beautiful, AI-powered memory book for Mother's Day from a single photo.  
+This tool combines heartfelt text generation, artistic photo enhancement, AI voice, and PDF export — all in one place.
 
 ---
 
-### 🔗 License
+## 🎁 Features
 
-This project is under the MIT License. Feel free to adapt it and make it yours.
+- 📝 Automatically generate a personalized letter
+- 🖼️ Stylize any old photo with artistic filters
+- 🔊 Convert the letter into a warm AI voice message
+- 📘 Export a ready-to-share PDF memory book
+- ☁️ 100% runs on **Google Colab**, no setup required
+
+---
+
+## 🚀 Quick Start
+
+1. Click the **“Open in Colab”** button above.
+2. Upload a photo of your mom or a memory.
+3. Follow the steps in the notebook.
+4. Download your final **PDF book** with audio.
+
+---
+
+## 📂 Files
+
+- `run_momories_colab.ipynb` — the all-in-one Google Colab notebook
+- `assets/` — optional folder for sample images or templates
+- `README.md` — you're reading it :)
+
+---
+
+## 🛍️ Ideal for Etsy
+
+This tool was designed to help creators quickly generate personalized digital memory books to sell on Etsy, Gumroad, or send as a heartfelt gift.
+
+---
+
+## 📬 License
+
+MIT — Free to use and modify
+
